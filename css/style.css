@@ -1,0 +1,111 @@
+/* #outerspace {
+    position: relative;
+    height: 400px;
+    background: #0c0440 url(./img/outerspace.jpg);
+    color: #fff;
+  }
+  div rocket {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    -webkit-transition: 3s ease-in;
+    -moz-transition: 3s ease-in;
+    -o-transition: 3s ease-in;
+    transition: 3s ease-in;
+  }
+  div rocket div {
+    width: 92px;
+    height: 215px;
+    background: url(/images/rocket.gif) no-repeat;
+    -webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+  }
+
+  #outerspace:hover div.rocket {
+    -webkit-transform: translate(540px,-200px);
+    -moz-transform: translate(540px,-200px);
+    -o-transform: translate(540px,-200px);
+    -ms-transform: translate(540px,-200px);
+    transform: translate(540px,-200px);
+  }
+  #outerspace:hover div.rocket div {
+    -webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    transform: rotate(70deg);
+  } */
+
+ /* body{
+    margin: 0;
+  }
+  .outerspace{
+    height: 100vh;
+    background: url(./../img/outerspace.jpg);
+    background-size: cover;
+    position: relative;
+  }
+  .rocket{
+    width: 200px;
+    height: 200px;
+    background-image: url(./../img/rocket.jpg);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: 2s;
+  }
+  .outerspace:hover .rocket{
+    transform: translateX(700px) translateY(-300px) rotate(90 deg);
+  } 
+
+
+.div1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid coral;
+    background-color: coral;
+    z-index: 2;
+    top: 55vh;
+       
+}
+.div2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(39, 32, 30);
+    background-color: rgb(23, 20, 18);
+    z-index: 1;
+    top: 55vh;
+   
+    
+} */
+
+
+.card{
+  width: 0%;
+  padding: 20px;
+  border-radius: 0px;
+  box-shadow: 0 0 3px rgb(164, 41, 41);
+  animation: opacity 3s cubic-bezier(0.23, 0.15, 0.46, 0.6);
+
+}
+
+/* .card:hover{
+  transform: rotate(45deg) translate(50px, 50px) scale(1.5);
+} */
+
+@keyframes opacity{
+  
+  100% { 
+    width: 100%; 
+    background-color: rgb(222, 8, 8); 
+  }  
+  
+}
+
+
+
